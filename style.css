@@ -72,6 +72,11 @@ body {
   grid-column-gap: 4rem;
 }
 
+.step-grid-3-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .header__logo img {
   width: 30rem;
 }
@@ -251,6 +256,10 @@ body {
   font-size: 1.6rem;
   margin-top: 0.5rem;
   color: #455a64;
+}
+
+.repartidores__image img {
+  width: 100%;
 }
 
 .repartidores__text {

@@ -58,3 +58,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 4rem;
 }
+
+.step-grid-3-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

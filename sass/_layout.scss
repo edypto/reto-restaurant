@@ -1,0 +1,60 @@
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+
+.section-steps{
+   
+    margin-top: 5rem;
+     & img{
+        margin-bottom: -1rem;
+     }
+}
+
+.testimonial{
+    padding: 5rem 0;
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 2rem;
+    }
+}
+
+
+.section-favoritos{
+    padding: 5rem 0;
+    background-color: $grisClaro;
+}
+
+.section-repartidores{
+    padding: 5rem 0;
+}
+
+.footer{
+    padding:5rem 0;
+    background-color: $secundario;
+    color: $blanco;
+}
+
+
+.grid-2-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+}
+
+.grid-3-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4rem;
+}
